@@ -2,16 +2,10 @@
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
-import { EliteApi } from '../shared/shared';
-
-import { MyTeamsPage } from '../pages/my-teams/my-teams';
-import { TournamentsPage } from '../pages/tournaments/tournaments';
+import { MyTeamsPage, TournamentsPage } from '../pages/pages';
 
 @Component({
     templateUrl: 'app.html',
-    providers: [
-        EliteApi
-    ]
 })
 export class MyApp {
 

@@ -8,7 +8,9 @@ export class TeamDetailPage {
 
     team: any;
 
-    constructor(private nav: NavController, private navParams: NavParams) {
+    constructor(public nav: NavController, public navParams: NavParams) { }
+
+    ionViewDidLoad() {
 
         this.team = this.navParams.data;
 

@@ -11,7 +11,7 @@ export class TeamHomePage {
     standingsTab = StandingsPage;
     teamDetailTab = TeamDetailPage;
 
-    constructor(private nav: NavController, private navParams: NavParams) {
+    constructor(public nav: NavController, public navParams: NavParams) {
 
         this.team = this.navParams.data;
 

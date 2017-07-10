@@ -7,8 +7,8 @@ import { TournamentsPage } from '../pages';
 })
 export class MyTeamsPage {
 
-    constructor(private nav: NavController) { }
-
+    constructor(public nav: NavController) { }
+    
     goToTournamets() {
         this.nav.push(TournamentsPage);
     }
